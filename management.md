@@ -109,7 +109,7 @@ MY MAXIMS/QUOTES
 - One plus one is many
 - Hire slow, fire fast
 - A "maybe" is a "no" when hiring
-- Don't try and build good systems. Build good teams and you get good systems as a side-effect
+- Don't try and build good systems. Build good teams and you get good systems as an emergent property
 - Doing the wrong better doesn't make it right
 - One-size-fits-all fits nobody well
 - The only thing harder than naming things is renaming them
@@ -796,3 +796,11 @@ MATURITY
 - Defined
 - Managed
 - Optimizing
+
+SMART
+-----
+- Specific: target a specific area for improvement.
+- Measurable: quantify or at least suggest an indicator of progress.
+- Achievable: state what results can realistically be achieved, given available resources.
+- Responsible: specify who will do it.
+- Time-related: specify when the result(s) can be achieved.
