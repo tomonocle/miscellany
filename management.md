@@ -35,7 +35,7 @@ Metrics - 10 req/sec
 ### Information
 What? - 10 req/sec for system x
 
-### Knowledge
+### Knowledge
 How? - 10 req/sec for system x is good
 
 ### Wisdom
@@ -501,7 +501,7 @@ Interest wanes as experiments and implementations fail to deliver. Producers of
 the technology shake out or fail. Investments continue only if the surviving
 providers improve their products to the satisfaction of early adopters.
 
-### Slope of enlightenment
+### Slope of enlightenment
 More instances of how the technology can benefit the enterprise start to
 crystallize and become more widely understood. Second- and third-generation
 products appear from technology providers. More enterprises fund pilots;

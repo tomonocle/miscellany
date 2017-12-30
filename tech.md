@@ -153,7 +153,7 @@ TOOLKIT
 - procinfo - summary of system information from /proc
 - pidstat  - per-process(id) stats, inc. CPU% usage
 
-### Realtime MySQL stats
+### Realtime MySQL stats
 Needs Maatkit
 
 ```
@@ -224,17 +224,17 @@ $ rpm -qa --qf "%{n}-%{arch}\n"
 $ rpm -qi <package> 
 ```
 
-### Which RPM installed <file>
+### Which RPM installed file
 ```
 $ rpm -qf <file>
 ```
 
-### List all files in <file.rpm>
+### List all files in file.rpm
 ```
-$ rpm -qlp <file>
+$ rpm -qlp <file.rpm>
 ```
 
-### List all files installed with <package>
+### List all files installed with package
 ```
 $ rpm -ql <package> 
 ```
@@ -246,22 +246,22 @@ DEB
 $ dpkg -l
 ```
 
-### List included files in <pkg> (if installed)
+### List included files in package (if installed)
 ```
 $ dpkg -L <pkg>
 ```
 
-### List files in <pkg> (file)
+### List files in package (file)
 ```
 $ dpkg --contents <pkg>
 ```
 
-### Report which package owns <file>
+### Report which package owns file
 ```
 $ dpkg -S /path/to/<file>
 ```
 
-### Reinstall <package>
+### Reinstall package
 ```
 $ apt-get install --reinstall <package>
 ```
@@ -272,7 +272,9 @@ $ debconf-get-selections | grep package_name > package_name.conf
 $ cat package_name.conf | debconf-set-selections
 ```
 
-Mirror size: http://www.debian.org/mirror/size
+### Current mirror size
+
+http://www.debian.org/mirror/size
 
 DEBIAN
 ------
@@ -290,7 +292,7 @@ $ puppet apply --modulepath=/etc/puppet/modules -e 'include <module>' --debug
 
 ### Force run
 ```
-$ puppet agent --test`
+$ puppet agent --test
 ```
 
 UBUNTU REPOS
@@ -304,7 +306,7 @@ Supported software that is not available under a completely free license.
 ### Universe
 Community maintained software, i.e. not officially supported software.
 
-### Multiverse
+### Multiverse
 Software that is not free. 
 
 OPENSSL
@@ -573,7 +575,7 @@ $ :(){ :|:& };:
 MACADDR="52:5:$(dd if=/dev/urandom count=1 2>/dev/null | md5sum | sed 's/^\(..\)\(..\)\(..\)\(..\).*$/\1:\2:\3:\4/')"; echo $MACADDR
 ```
 
-### Here string usage
+### Here string usage
 ```
 $ command <<"EOF"
 bar
@@ -586,17 +588,17 @@ EOF
 $ command &> /dev/null
 ```
 
-### Iterate over lines
+### Iterate over lines
 ```
 $ for i in $(<file); do echo $i; done
 ```
 
-### hex->dec
+### hex->dec
 ```
 $ printf '%d\n' 0xY
 ```
 
-### dec->hex
+### dec->hex
 ```
 $ printf '%x\n' y
 ```
@@ -790,7 +792,7 @@ GNUPLOT
 gnuplot> set datafile separator ','
 ```
 
-### To plot data in a file
+### To plot data in a file
 ```
 gnuplot> plot 'file' using 1:2
 ```
@@ -812,7 +814,7 @@ gnutplot> set timefmt '<strftime>' <-- field format
 gnutplot> set format x '<strftime>' <-- display format
 ```
 
-### Set labels/titles
+### Set labels/titles
 ```
 gnuplot> set xlabel "Foo"
 gnuplot> set ylabel "Bar"
@@ -885,7 +887,7 @@ Metrics - 10 req/sec
 ### Information
 What? - 10 req/sec for system x
 
-### Knowledge
+### Knowledge
 How? - 10 req/sec for system x is good
 
 ### Wisdom
@@ -1104,29 +1106,29 @@ Config is placed (comma-separated) at the start of the line, e.g
 from="10.11.12.13",command="/usr/bin/foo",no-pty ssh-rsa ABC123 comment
 ```
 
-### command="foo"
+### command="foo"
 Run command 'foo' when this key is used, regardless of what the user requested.
 Command user passed is available through $SSH_ORIGINAL_COMMAND
 
-### environment="FOO=bar"
+### environment="FOO=bar"
 Set environment variable FOO to 'bar'
 
-### from="pattern-list"
+### from="pattern-list"
 Only allow this key to be used from hosts specified. [*?] available as wildcards. Comma-separated
 
-### no-agent-forwarding
+### no-agent-forwarding
 Don't allow client to forward their ssh agent
 
-### no-port-forwarding
+### no-port-forwarding
 Don't allow client to forward ports
 
-### no-pty
+### no-pty
 Don't allocate a PTY to connection
 
-### no-user-rc
+### no-user-rc
 Don't execute user's .ssh/rc file
 
-### no-X11-forwarding
+### no-X11-forwarding
 Don't allow X11 forwarding
 
 BIG O NOTATION
@@ -1368,7 +1370,7 @@ XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 VMWARE
 ------
 
-### Escape from visual console
+### Escape from visual console
 ```
 CTRL-ALT
 ```
@@ -1463,12 +1465,12 @@ RABBITMQ
 $ rabbitmqctl add_user <user> <pass>
 ```
 
-### Allow to administer/log on to console
+### Allow to administer/log on to console
 ```
 $ rabbitmqctl set_user_tags <user> administrator
 ```
 
-### Allow config/write/read to all queues
+### Allow config/write/read to all queues
 ```
 $ rabbitmqctl set_permissions -p <vhost> <user> '.*' '.*' '.*'
 ```
