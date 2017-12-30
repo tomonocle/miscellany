@@ -1,9 +1,16 @@
 # Clark's Miscellany
 
 ## Introduction
-As I've meandered through my career I've been collecting bits of information that I found useful, enlighting or amusing - and sometimes all three.
+Hello 👋 
 
-I use them daily and update them frequently. I find them very useful, and I hope you do too.
+For a number of years now I've made a habit of collecting useful and/or
+interesting commands, facts, figures, principles, laws, sayings, quotes,
+rules-of-thumb, etc that I come across as I journey through my career.
+
+I find myself referring to them almost daily, and I hope they're as useful to
+you as they are to me.
+
+**TC**
 
 ## Contents
 
