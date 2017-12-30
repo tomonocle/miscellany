@@ -143,6 +143,7 @@ OTHER MAXIMS/QUOTES
 - Let chaos reign, then rein in chaos
 - What you've said hasn't been understood until proven otherwise
 - Criticise in private, praise in public
+- When you don’t create things, you become defined by your tastes rather than ability. Your tastes only narrow and exclude people. So create.
 
 BIG O NOTATION
 --------------
