@@ -1,5 +1,5 @@
-TOM'S MANAGEMENT MISCELLANY
-===========================
+CLARKS' MISCELLANY: MANAGEMENT EDITION
+======================================
 
 READING LIST
 ------------
@@ -81,6 +81,9 @@ Eliminating something (e.g complexity) in one place requires it to be added some
 ### Hawthorne/observer effect
 Individuals modify/improve performance in response to being observed.
 
+### Chesterton's fence
+Don’t ever take a fence down until you know the reason why it was put up
+
 PROGRAMMER'S VIRTUES
 --------------------
 ### Laziness
@@ -103,7 +106,6 @@ MY MAXIMS/QUOTES
 ----------------
 - Aggressively reduce variance
 - Simple > Complex > Complicated
-- Clark's razor: Other factors being equal, it's probably the developers
 - Intelligence is the ability to adapt to change
 - Care more by caring less
 - One plus one is many
@@ -136,7 +138,7 @@ OTHER MAXIMS/QUOTES
 - Treat servers like cattle, not pets
 - It's a fallacy to assume someone who writes incomprehensible code can write a comprehensible comment
 - The manager's function is not to make people work, but to make it possible for people to work
-- Integrity is when your beliefs, your words, and your actions are all in alignment.
+- Integrity is when your beliefs, your words, and your actions are all in alignment
 - As large as necessary, as small as possible
 - Let chaos reign, then rein in chaos
 - What you've said hasn't been understood until proven otherwise
@@ -306,15 +308,15 @@ PROJECTS (RAID)
 - Issues
 - Dependencies
 
-MOSOCOW
--------
+MOSCOW
+------
 - Mo: Must Have 
 - So: Should Have
 - Co: Could Have
 - W: Won't happen
 
-OODA
-----
+OODA (BOYD)
+-----------
 - Observe 
 - Orient
 - Decide
@@ -334,12 +336,11 @@ SWOT
 - Opportunities
 - Threats
 
-DEVELOPMENT
------------
+PERSONAL DEVELOPMENT
+--------------------
 - Belive
 - Behave
 - Become
-
 
 PROJECT MANAGEMENT TRIANGLE
 ---------------------------
