@@ -15,7 +15,7 @@ None. Use at your own risk. Errors and omissions excepted. Batteries not
 included. Hand wash cold. Beware of the leopard. Have a nice day.
 
 ## Author
-Tom Clark | github@woot.co.uk | @tomonocle | linkedin.com/in/tomonocle/ | github.com/tomonocle
+Tom Clark | github@woot.co.uk | [@tomonocle](twitter.com/tomonocle) | [linkedin.com/in/tomonocle/](linkedin.com/in/tomonocle/) | [github.com/tomonocle](github.com/tomonocle)
 
 ## License
 [Creative Commons Attribution-NonCommercial-NoDerivatives](LICENSE.txt)
