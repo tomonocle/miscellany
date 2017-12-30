@@ -1,5 +1,5 @@
-TOM'S TECHNICAL MISCELLANY
-==========================
+CLARK'S MISCELLANY: TECHNICAL EDITION
+=====================================
 
 HTTP CODES
 ----------
