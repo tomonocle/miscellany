@@ -7,8 +7,8 @@ For a number of years now I've made a habit of collecting useful and/or
 interesting commands, facts, figures, principles, laws, sayings, quotes,
 rules-of-thumb, etc that I come across as I journey through my career.
 
-I find myself referring to them almost daily, and I hope they're as useful to
-you as they are to me.
+I find myself referring to them almost daily, so thought someone else
+might find them useful too. Please [let me know if you do](#Author)!
 
 **TC**
 
