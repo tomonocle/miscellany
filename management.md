@@ -717,8 +717,8 @@ Status, job security, salary, benefits, work conditions
 - Low motivation + high hygiene: Employees have few complaints but work isn't exciting. Job seen as a paycheck.
 Low motivation + low hygiene: The worst. Employees not motivated and have many complaints.
 
-LAW OF DEMENTER
----------------
+LAW OF DEMETER
+--------------
 - Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
 - Each unit should only talk to its friends; don't talk to strangers.
 - Only talk to your immediate friends.
