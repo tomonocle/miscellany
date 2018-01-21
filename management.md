@@ -806,3 +806,11 @@ SMART
 - Achievable: state what results can realistically be achieved, given available resources.
 - Responsible: specify who will do it.
 - Time-related: specify when the result(s) can be achieved.
+
+ABBREVIATIONS
+-------------
+- a11y accessibility
+- g11n globalisation
+- i18n internationalisation
+- l10n localisation
+- p13n personalisation
