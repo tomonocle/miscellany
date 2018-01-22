@@ -1232,7 +1232,7 @@ METASYNTACTIC VARIABLES
 
 PRINTF
 ------
-### Placeholders
+### Placeholders
 ```
 %% literal %
 %s string
@@ -1245,7 +1245,7 @@ PRINTF
 %g floating-point, %e or %f as appropriate
 ```
 
-### Flags
+### Flags
 ```
 space - prefix non-negative number with space
 +     - prefix non-negative number with a plus sign
@@ -1254,7 +1254,7 @@ space - prefix non-negative number with space
 #     - prefix 0 for oct, 0x for hex
 ```
 
-### min-width
+### min-width
 ```
 "<%s>", a  = "<a>"
 "<%6s>", a = "<     a>"
@@ -1426,7 +1426,7 @@ $ curl http://localhost:9200/_cluster/health?pretty=true
 $ curl http://localhost:9200/_cat/indices
 ```
 
-### List nodes
+### List nodes
 ```
 $ curl http://localhost:9200/_cat/nodes
 ```
@@ -1443,12 +1443,12 @@ POSTFIX
 $ mailq
 ```
 
-### Clear all queues
+### Clear all queues
 ```
 $ postsuper -d ALL
 ```
 
-### Flush (retry) queue
+### Flush (retry) queue
 ```
 $ postfix flush
 ```
