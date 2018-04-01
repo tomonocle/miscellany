@@ -618,7 +618,6 @@ shuf -n 1 file
 $ grep -l $'\xEF\xBB\xBF' <file>
 ```
 
-
 ### Remove BOM
 ```
 sed -i '1 s/^\xef\xbb\xbf//' <file>
@@ -1475,6 +1474,13 @@ $ rabbitmqctl set_user_tags <user> administrator
 $ rabbitmqctl set_permissions -p <vhost> <user> '.*' '.*' '.*'
 ```
 
+LSOF
+----
+### List open files for a process
+```
+$ lsof -a -d 1-999 -p <pid> /
+```
+
 UNIX PHILOSOPHY
 ---------------
 1. Rule of Modularity: Write simple parts connected by clean interfaces.
@@ -1494,3 +1500,20 @@ UNIX PHILOSOPHY
 1. Rule of Optimization: Prototype before polishing. Get it working before you optimize it.
 1. Rule of Diversity: Distrust all claims for “one true way”.
 1. Rule of Extensibility: Design for the future, because it will be here sooner than you think.
+
+CONNASCENCE
+-----------
+Describes level of complexity introduced through relationships/dependencies
+
+### Static
+- Name - e.g method names
+- Type - e.g string
+- Meaning/Convention - e.g 1==true
+- Position - positional parameters
+- Algorithm - e.g MAC or hashing algorithms
+
+### Dynamic
+- Execution - e.g order of execution is important
+- Timing - e.g timing of multiple components is important
+- Values - e.g when several values must change together
+- Identity - e.g when multiple components must reference the same identity
