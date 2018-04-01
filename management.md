@@ -144,6 +144,7 @@ OTHER MAXIMS/QUOTES
 - What you've said hasn't been understood until proven otherwise
 - Criticise in private, praise in public
 - When you don’t create things, you become defined by your tastes rather than ability. Your tastes only narrow and exclude people. So create.
+- Hire for values fit and culture add
 
 BIG O NOTATION
 --------------
@@ -799,6 +800,15 @@ MATURITY
 - Managed
 - Optimizing
 
+MATURITY (ISO 55000)
+--------------------
+1. Innocence
+1. Awareness
+1. Developing
+1. Competence
+1. Optimisation
+1. Excellence
+
 SMART
 -----
 - Specific: target a specific area for improvement.
@@ -814,3 +824,65 @@ ABBREVIATIONS
 - i18n internationalisation
 - l10n localisation
 - p13n personalisation
+
+DREAD
+-----
+- Damage: how bad would an attack be
+- Reproducibility: how easy is it to reproduce the attack
+- Exploitability: how much work is it to launch the attack?
+- Affected users: how many people will be impacted?
+- Discoverability: how easy is it to discover the threat?
+
+STRIDE
+------
+- Spoofing of user identity
+- Tampering
+- Repudiation
+- Information disclosure (privacy breach or data leak)
+- Denial of service (D.o.S)
+- Elevation of privilege
+
+AGILE MANIFESTO
+---------------
+- Individuals & interactions > processes & tools
+- Working software > comprehensive documentation
+- Customer collaboration > contract negotiation
+- Responding to change > following a plan
+- Left > Right
+
+EISENHOWER MATRIX
+-----------------
+```
+  +------------+------------+
+  |            |            |
+I |            |            |
+m |   Later    |    Now     |
+p |            |            |
+o |            |            |
+r +-------------------------+
+t |            |            |
+a |            |            |
+n |   Avoid    |  Delegate  |
+c |            |            |
+e |            |            |
+  +------------+------------+
+            Urgency
+```
+
+INCIDENT PRIORITY
+------------------
+- Urgency: score according to how quickly you need to react to prevent the situation getting worse
+- Impact: score according to number of people affected, money lost, criticality of systems affected, risk to life, reputation, etc
+
+```
+      Impact
+      +---+---+---+
+      | H | M | L |
+U +---------------+
+r | H | 1 | 2 | 3 |
+g +---------------+
+e | M | 2 | 3 | 4 |
+n +---------------+
+c | L | 3 | 4 | 5 |
+y +---+---+---+---+
+```
