@@ -69,8 +69,11 @@ Dumb people think they're smart, smart people think they're dumb.
 ### Pareto Principle
 80/20 - 80% of effects from 20% of causes
 
-### Parkinson's Law
+### Peter principle
 People are promoted to the level of their incompetence
+
+### Parkinson's Law
+Work expands so as to fill the time available for its completion
 
 ### Postel's law
 Be conservative in what you send, liberal in what you receive
