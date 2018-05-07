@@ -122,6 +122,9 @@ MY MAXIMS/QUOTES
 - Debate, don't dictate
 - Throw them in at the deep end with armbands and a lifeguard
 - Hire "smart" and "kind"
+- Regularly ask yourself whether you're mostly doing good or stopping bad
+- If there's no "us" then everyone is "them"
+- Perfection is asymptotic
 
 OTHER MAXIMS/QUOTES
 -------------------
@@ -149,6 +152,8 @@ OTHER MAXIMS/QUOTES
 - Criticise in private, praise in public
 - When you don’t create things, you become defined by your tastes rather than ability. Your tastes only narrow and exclude people. So create.
 - Hire for values fit and culture add
+- In an emergency, first wind your watch
+- You can do anything, but not everything
 
 BIG O NOTATION
 --------------
