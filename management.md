@@ -889,3 +889,26 @@ n +---------------+
 c | L | 3 | 4 | 5 |
 y +---+---+---+---+
 ```
+
+CYNEFIN MODEL
+-------------
+
+### Chaotic
+- No relationship between cause and effect at systems level
+- Novel practice
+- Response: act/sense/respond
+
+### Complex
+- The relationship between cause and effect can only be perceived in retrospect
+- Emergent practice
+- Response: probe/sense/respond
+
+### Complicated
+- The relationship between cause and effect requires analysis or some other form of investigation and/or the application of expert knowledge
+- Good practice
+- Response: sense/analyse/respond
+
+### Simple
+- The relationship between cause and effect is obvious to all
+- Best practice
+- Response: sense/categorize/respond
