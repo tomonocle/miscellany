@@ -11,6 +11,7 @@ READING LIST
 - Our Iceberg is Melting (Kotter, Rathgeber)
 - Peopleware (DeMarco, Lister)
 - The Phoenix Project (Kim)
+- Deep Work (Newport)
 
 UPTIME  
 ------
