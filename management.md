@@ -918,3 +918,15 @@ CYNEFIN MODEL
 - The relationship between cause and effect is obvious to all
 - Best practice
 - Response: sense/categorize/respond
+
+BURNOUT (MAYO CLINIC)
+---------------------
+- Have become cynical or critical
+- Lack motivation to start the day
+- Are irritable or impatient with co-workers, customers or clients
+- Lack energy to be consistently productive
+- Lack satisfaction from achievements
+- Feel disillusioned about work
+- Use food, drugs or alcohol to feel better (or to not feel at all)
+- Experience changes in sleep habits or appetite
+- Suffer from unexplained headaches, backaches or other physical complaints
