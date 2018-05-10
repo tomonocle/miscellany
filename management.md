@@ -930,3 +930,14 @@ BURNOUT (MAYO CLINIC)
 - Use food, drugs or alcohol to feel better (or to not feel at all)
 - Experience changes in sleep habits or appetite
 - Suffer from unexplained headaches, backaches or other physical complaints
+
+VALUES IN ACTION INVENTORY OF STRENGTHS (PETERSON & SELIGMAN)
+-------------------------------------------------------------
+```
+WISDOM               COURAGE         HUMANITY               JUSTICE       TEMPERANCE         TRANSCENDENCE
+Creativity           Bravery         Love                   Teamwork      Forgiveness        Appreciation of beauty and excellence
+Curiosity            Perseverance    Kindness               Fairness      Humility           Gratitude
+Judgment             Honesty         Social intelligence    Leadership    Prudence           Hope
+Love of learning     Zest                                                 Self-regulation    Humour
+Perspective                                                                                  Spirituality
+```
