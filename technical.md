@@ -1097,6 +1097,21 @@ SSH
 $ ssh -o StrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null user@host
 ```
 
+### Escape sequences
+```
+ ~.   - terminate connection (and any multiplexed sessions)
+ ~B   - send a BREAK to the remote system
+ ~C   - open a command line
+ ~R   - request rekey
+ ~V/v - decrease/increase verbosity (LogLevel)
+ ~^Z  - suspend ssh
+ ~#   - list forwarded connections
+ ~&   - background ssh (when waiting for connections to terminate)
+ ~?   - this message
+ ~~   - send the escape character by typing it twice
+(Note that escapes are only recognized immediately after newline.)
+```
+
 SSH AUTHORIZED_KEYS
 -------------------
 Config is placed (comma-separated) at the start of the line, e.g
