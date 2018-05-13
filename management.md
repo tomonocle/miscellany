@@ -88,6 +88,9 @@ Individuals modify/improve performance in response to being observed.
 ### Chesterton's fence
 Don’t ever take a fence down until you know the reason why it was put up
 
+### Kerninghan's Law
+Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+
 PROGRAMMER'S VIRTUES
 --------------------
 ### Laziness
