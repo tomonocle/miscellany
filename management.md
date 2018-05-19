@@ -157,6 +157,8 @@ OTHER MAXIMS/QUOTES
 - Hire for values fit and culture add
 - In an emergency, first wind your watch
 - You can do anything, but not everything
+- Buy cheap, buy twice
+- Underpromise, overdeliver
 
 BIG O NOTATION
 --------------
@@ -924,15 +926,15 @@ CYNEFIN MODEL
 
 BURNOUT (MAYO CLINIC)
 ---------------------
-- Have become cynical or critical
-- Lack motivation to start the day
-- Are irritable or impatient with co-workers, customers or clients
-- Lack energy to be consistently productive
-- Lack satisfaction from achievements
-- Feel disillusioned about work
-- Use food, drugs or alcohol to feel better (or to not feel at all)
-- Experience changes in sleep habits or appetite
-- Suffer from unexplained headaches, backaches or other physical complaints
+- Has become cynical or critical
+- Lacks motivation to start the day
+- Is irritable or impatient with co-workers, customers or clients
+- Lacks energy to be consistenty productive
+- Lacks satisfaction from achievements
+- Feels disillusioned about work
+- Uses food, drugs or alcohol to feel better (or to not feel at all)
+- Experiences changes in sleep habits or appetite
+- Suffers from unexplained headaches, backaches or other physical complaints
 
 VALUES IN ACTION INVENTORY OF STRENGTHS (PETERSON & SELIGMAN)
 -------------------------------------------------------------
