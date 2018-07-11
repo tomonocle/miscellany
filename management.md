@@ -159,6 +159,8 @@ OTHER MAXIMS/QUOTES
 - You can do anything, but not everything
 - Buy cheap, buy twice
 - Underpromise, overdeliver
+- "We do not rise to the level of our expectations. We fall to the level of our training." -- Archilochus
+- "Culture eats strategy for breakfast" -- Peter Drucker
 
 BIG O NOTATION
 --------------
