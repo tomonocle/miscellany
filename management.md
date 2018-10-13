@@ -161,6 +161,12 @@ OTHER MAXIMS/QUOTES
 - Underpromise, overdeliver
 - "We do not rise to the level of our expectations. We fall to the level of our training." -- Archilochus
 - "Culture eats strategy for breakfast" -- Peter Drucker
+- Don't panic -- Douglas Adams
+- Trust is not a control
+- If you risk nothing, you risk everything
+- If you can't change the people, change the people
+- If you can't change the company, change company
+- Stop starting and start finishing
 
 BIG O NOTATION
 --------------
