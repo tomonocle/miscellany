@@ -12,6 +12,7 @@ READING LIST
 - Peopleware (DeMarco, Lister)
 - The Phoenix Project (Kim)
 - Deep Work (Newport)
+- Accelerate (Forsgren, Kim, Humble)
 
 UPTIME  
 ------
@@ -53,8 +54,8 @@ FALLACIES OF DISTRIBUTED COMPUTING
 - Transport cost is zero
 - The network is homogeneous
 
-LAWS, PRINCIPLES AND PHENOMENA
-------------------------------
+LAWS, PRINCIPLES, PHENOMENA AND NUMBERS
+---------------------------------------
 ### Baader Meinhoff
 Experiencing something shortly after learning it
 
@@ -79,6 +80,9 @@ Work expands so as to fill the time available for its completion
 ### Postel's law
 Be conservative in what you send, liberal in what you receive
 
+## Conway's law
+Organizations which design systems are constrained to produce designs which are copies of the communication structures of those organisations
+
 ### Waterbed theory
 Eliminating something (e.g complexity) in one place requires it to be added somewhere else
 
@@ -90,6 +94,24 @@ Don’t ever take a fence down until you know the reason why it was put up
 
 ### Kerninghan's Law
 Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+
+### Dunbar's number
+150\. The limit to the number of people with whom one can maintain stable social relationships—relationships in which an individual knows who each person is and how each person relates to every other person.
+
+### 10/10/10 rule [Welch]
+When stuck making a decision, ask yourself whether making the wrong decision will matter in **10** minutes, **10** months or **10** years. Prioritise accordingly.
+
+### Gall's law
+All complex systems that work evolved from simpler systems that worked. If you want to build a complex system that works, build a simpler system first, and then improve it over time.
+
+### Jevons' paradox
+Increased efficiency doesn't necessarily lead to reduced consumption as overall demand will increase due to the reduced cost.
+
+### Broken windows theory
+Tolerance of minor infractions leads to normalisation, leading to more serious infractions.
+
+### Disagree and commmit
+Management principle which states that people are allowed to disagree during the  decision making process, but most commit to the final decision – whatever it is.
 
 PROGRAMMER'S VIRTUES
 --------------------
@@ -111,6 +133,8 @@ things about. Hence, the third great virtue of a programmer.
 
 MY MAXIMS/QUOTES
 ----------------
+- Don't optimise for the uncommon case
+- Do something when you can afford to, not when you can't afford **not** to
 - Aggressively reduce variance
 - Simple > Complex > Complicated
 - Intelligence is the ability to adapt to change
@@ -167,6 +191,10 @@ OTHER MAXIMS/QUOTES
 - If you can't change the people, change the people
 - If you can't change the company, change company
 - Stop starting and start finishing
+- "The cost of failure is education" -- Devin Carraway
+- "In God we trust – all others must bring data" -- Deming
+- An expert is someone who has made all the mistakes
+- "Quality is value to some person" -- Jerry Weinberg
 
 BIG O NOTATION
 --------------
@@ -954,3 +982,82 @@ Judgment             Honesty         Social intelligence    Leadership    Pruden
 Love of learning     Zest                                                 Self-regulation    Humour
 Perspective                                                                                  Spirituality
 ```
+
+ACCELERATE METRICS
+------------------
+Metrics to measure team performance, taken from _Accelerate_ by Forsgren, Kim, Humble.
+
+- **Cycle time**: Average time for a commit to make it to production
+- **Deployment frequency**: How frequently updates are made in production
+- **MTTR**: Average time to recover from failure
+- **Failed deploy %**: How many changes fail
+
+PIONEERS, SETTLERS, TOWN PLANNERS (WARDLEY)
+-------------------------------------------
+Wardley posits that people fall into three broad categories – all brilliant and necessary.
+
+### Pioneers
+Come up with new and novel ideas. Risk-takers, lots of uncertainty, experimental. High degree of failure, but learning from it. "Move fast and break things". Inventors.
+
+Produces prototypes.
+
+### Settlers
+Takes prototypes and commercialises them. Builds trust and understanding. Makes it repeatable, reliable, profitable. Innovators.
+
+Produces products.
+
+### Town planners
+Takes products industrialises them. Makes things faster, better, smaller, more efficient, more economic and more profitable. Diffusers.
+
+Produces services, utilities and commodities (used by the next generation of pioneers)
+
+20-60-20 RULE FOR CHANGE (NAPIER)
+---------------------------------
+Napier posits that reaction to change will broadly fall into three main camps.
+
+### 20% Positive
+See the benefit of the change and are on board from the start. Supportive cheerleaders.
+
+### 60% Neutral/Undecided
+'Silent majority' who are unsure, but can be convinced with data/evidence.
+
+### 20% Negative
+'Vocal minority' who resist the change from the start, either because the change will affect them directly or because change is intrinsically bad. Possibly former "positives" who have been worn down into cynical pessimists.
+
+#### Summary
+The temptation is often to focus on the 'vocal minority', however the cost/benefit calculus doesn't make sense – they're very difficult (or even impossible) to win over at great cost.
+
+Instead pay attention to the silent majority. Work out what they need to be convinced and deliver it to them. At that point you'll have 80% and the negative 20% will be forced to 'disagree and commit' or get out of the way.
+
+CALMS
+-----
+Principles popularised by the the devOps movement.
+
+### Culture
+Embrace change and share responsibility. Operate a safe, blameless environment where people have room to fail and to grow
+
+### Automation
+Automate where possible. Let people focus on the novel, computers on the repetitive. Operate continuous integegration (CI) and ideally continuous delivery (CD). Bias towards maintaining configuration as code wherever possible
+
+### Lean
+Continually deliver value in small batches
+
+### Measurement
+You can't fix what you don't measure. Measure and adjust
+
+### Sharing
+Maintain transparent communication channels within the team and beyond
+
+LAWS OF ORGANISATIONAL BEHAVIOUR (LARMAN)
+-----------------------------------------
+At large scale culture is born out of structure. If you want to change culture, you need to start with the structure.
+
+1. Organizations are implicitly optimized to avoid changing the status quo middle- and first-level manager and “specialist” positions & power structures
+
+1. As a corollary to (1), any change initiative will be reduced to redefining or overloading the new terminology to mean basically the same as status quo.
+
+1. As a corollary to (1), any change initiative will be derided as “purist”, “theoretical”, “revolutionary”, "religion", and “needing pragmatic customization for local concerns” — which deflects from addressing weaknesses and manager/specialist status quo.
+
+1. As a corollary to (1), if after changing the change some managers and single-specialists are still displaced, they become “coaches/trainers” for the change, frequently reinforcing (2) and (3).
+
+1. Culture follows structure.
