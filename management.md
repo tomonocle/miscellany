@@ -1007,7 +1007,7 @@ Takes prototypes and commercialises them. Builds trust and understanding. Makes 
 Produces products.
 
 ### Town planners
-Takes products industrialises them. Makes things faster, better, smaller, more efficient, more economic and more profitable. Diffusers.
+Takes products and industrialises them. Makes things faster, better, smaller, more efficient, more economic and more profitable. Diffusers.
 
 Produces services, utilities and commodities (used by the next generation of pioneers)
 
