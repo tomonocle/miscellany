@@ -1045,32 +1045,8 @@ HPACUCLI
 
 LAWS, PRINCIPLES AND PHENOMENA
 ------------------------------
-### Baader Meinhoff
-Experiencing something shortly after learning it
-
-### Benford's Law
-http://www.rexswain.com/benford.html
-
-### Brooks' Law
-Adding manpower to a late project makes it later
-
-### Dunning-Kruger
-Dumb people think they're smart, smart people think they're dumb.
-
-### Pareto Principle
-80/20 - 80% of effects from 20% of causes
-
-### Parkinson's Law
-People are promoted to the level of their incompetence
-
-### Postel's law
-Be conservative in what you send, liberal in what you receive
-
-### Waterbed theory
-Eliminating something (e.g complexity) in one place requires it to be added somewhere else
-
-### Hawthorne/observer effect
-Individuals modify/improve performance in response to being observed.
+## Little's law
+L = λW. The average number of requests in a system is equal to the average arrival rate (req/s) multiplied by the average response time (s/req)
 
 PROGRAMMER'S VIRTUES
 --------------------
@@ -1532,3 +1508,44 @@ Describes level of complexity introduced through relationships/dependencies
 - Timing - e.g timing of multiple components is important
 - Values - e.g when several values must change together
 - Identity - e.g when multiple components must reference the same identity
+
+ALICE & BOB
+-----------
+Common characters in cryptology
+
+- Alice: main participant
+- Bob: main participant
+- Carol/Carlos/Charlie: generic character
+- Dan/David: generic character
+- Eve: an eavesdropper. Passive attacker who can observe, but not modify messages
+- Frank: generic character
+- Grace: government representative
+- Mallory: a malicious active attacker who can observe and modify messages
+- Trudy: an intruder 
+
+12/TWELVE FACTOR APPS
+---------------------
+1. **Codebase**. One codebase tracked in revision control, many deploys
+1. **Dependencies**. Explicitly declare and isolate dependencies
+1. **Config**: Store config in the environment
+1. **Backing services**: Treat backing services as attached resources
+1. **Build, release, run**: Strictly separate build and run stages
+1. **Processes**: Execute the app as one or more stateless processes
+1. **Port binding**: Export services via port binding
+1. **Concurrency**: Scale out via the process model
+1. **Disposability**: Maximize robustness with fast startup and graceful shutdown
+1. **Dev/prod parity**: Keep development, staging, and production as similar as possible
+1. **Logs**: Treat logs as event streams
+1. **Admin processes**: Run admin/management tasks as one-off processes
+
+UTILISATION SATURATION AND ERRORS (USE)
+---------------------------------------
+- **Utilisation**: the average time that the resource was busy servicing work OR the amount of capacity consumed
+- **Saturation**: the degree to which the resource has extra work which it can't service, often queued
+- **Errors**: the count of error events
+
+RATE/ERRORS/DURATION (RED)
+--------------------------
+- **Rate**: requests per second
+- **Errors**: failed requests per second
+- **Duration**: distribution of response time per request
