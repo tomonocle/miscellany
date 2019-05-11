@@ -390,7 +390,7 @@ SWOT
 
 PERSONAL DEVELOPMENT
 --------------------
-- Belive
+- Believe
 - Behave
 - Become
 
@@ -484,11 +484,11 @@ PREFERRED NUMBERS
 ITSM Journey
 ------------
 - Chaos
-- Technology (Infrastrucutre & applications managed as separate domains // separate technology silos)
+- Technology (Infrastructure & applications managed as separate domains // separate technology silos)
 - Service (Integration and delivery of end-to-end IT services (business solutions) // - Applications vs Infrastructure)
 - Customer (IT has mature processes and a single strategy and is focused on the customer // Management of IT supply chain)
 - Business (IT is perceived as an internal business partner // IT supports business goals)
-- Value (IT customers are the customer of the organization / IT is the business)
+- Value (IT customers are the customer of the organisation / IT is the business)
 
 FCAPS
 -----
@@ -555,7 +555,7 @@ providers improve their products to the satisfaction of early adopters.
 
 ### Slope of enlightenment
 More instances of how the technology can benefit the enterprise start to
-crystallize and become more widely understood. Second- and third-generation
+crystallise and become more widely understood. Second- and third-generation
 products appear from technology providers. More enterprises fund pilots;
 conservative companies remain cautious.
 
@@ -595,7 +595,7 @@ SITUATIONAL LEADERSHIP THEORY
 ## Leadership styles
 
 ### S1: Telling
-Characterized by one-way communication in which the leader defines the roles of
+Characterised by one-way communication in which the leader defines the roles of
 the individual or group and provides the what, how, why, when and where to do
 the task
 
@@ -607,7 +607,7 @@ allow the individual or group being influenced to buy into the process;
 ### S3: Participating
 This is how shared decision-making about aspects of how the task is
 accomplished and the leader is providing less task behaviours while maintaining
-high relationship behavior;
+high relationship behaviour;
 
 ### S4: Delegating
 The leader is still involved in decisions; however, the process and
@@ -644,7 +644,7 @@ TRAITS OF A GOOD LEADER
 -----------------------
 ### Honest
 Display sincerity, integrity, and candor in all your actions. Deceptive
-behavior will not inspire trust.
+behaviour will not inspire trust.
 
 ### Competent
 Base your actions on reason and moral principles. Do not make decisions based
@@ -652,7 +652,7 @@ on childlike emotional desires or feelings.
 
 ### Forward-looking
 Set goals and have a vision of the future. The vision must be owned throughout
-the organization. Effective leaders envision what they want and how to get it.
+the organisation. Effective leaders envision what they want and how to get it.
 They habitually pick priorities stemming from their basic values.
 
 ### Inspiring
@@ -683,7 +683,7 @@ Make timely and appropriate changes in your thinking, plans, and methods. Show
 creativity by thinking of new and better goals, ideas, and solutions to
 problems. Be innovative!
 
-3 STAGES OF ORGANIZATIONAL DEVELOPMENT
+3 STAGES OF ORGANISATIONAL DEVELOPMENT
 --------------------------------------
 ### Stage I: Chaos (fire-fighting mentality)
 - Crisis/short-term focus
@@ -719,7 +719,7 @@ THEORY OF ORGANISATIONAL SAFETY (WESTRUM)
 - Failure is covered up
 - New ideas are actively crushed
 
-### Bureaucractic
+### Bureaucratic
 - Information may be ignored
 - Messengers are tolerated
 - Responsibility is compartmentalised
@@ -740,7 +740,7 @@ INVEST (User stories)
 - Independent: The user story should be self-contained, in a way that there is no inherent dependency on another user story.
 - Negotiable:  User stories, up until they are part of an iteration, can always be changed and rewritten.
 - Valuable:    A user story must deliver value to the end user.
-- Estimatable: You must always be able to estimate the size of a user story.
+- Estimable:   You must always be able to estimate the size of a user story.
 - Scalable:    User stories should not be so big as to become impossible to plan/task/prioritize with a certain level of certainty.
 - Testable:    The user story or its related description must provide the necessary information to make test development possible.
 
@@ -765,7 +765,7 @@ Status, job security, salary, benefits, work conditions
 
 - High motivation + high hygiene: The ideal. Employees motivated with few complaints
 - High motivation + low hygiene: Employees motivated but have many complaints. Work is exciting and challenging but salaries and conditions are poor
-- Low motivation + high hygiene: Employees have few complaints but work isn't exciting. Job seen as a paycheck.
+- Low motivation + high hygiene: Employees have few complaints but work isn't exciting. Job seen as a paycheque.
 Low motivation + low hygiene: The worst. Employees not motivated and have many complaints.
 
 LAW OF DEMETER
@@ -958,14 +958,14 @@ CYNEFIN MODEL
 ### Simple
 - The relationship between cause and effect is obvious to all
 - Best practice
-- Response: sense/categorize/respond
+- Response: sense/categorise/respond
 
 BURNOUT (MAYO CLINIC)
 ---------------------
 - Has become cynical or critical
 - Lacks motivation to start the day
 - Is irritable or impatient with co-workers, customers or clients
-- Lacks energy to be consistenty productive
+- Lacks energy to be consistently productive
 - Lacks satisfaction from achievements
 - Feels disillusioned about work
 - Uses food, drugs or alcohol to feel better (or to not feel at all)
