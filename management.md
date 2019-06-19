@@ -1,6 +1,86 @@
 CLARK'S MISCELLANY: MANAGEMENT EDITION
 ======================================
+<!--ts-->
+   * [CLARK'S MISCELLANY: MANAGEMENT EDITION](management.md#clarks-miscellany-management-edition)
+      * [READING LIST](management.md#reading-list)
+      * [UPTIME](management.md#uptime)
+      * [DIKM](management.md#dikm)
+      * [FALLACIES OF DISTRIBUTED COMPUTING](management.md#fallacies-of-distributed-computing)
+      * [LAWS, PRINCIPLES, PHENOMENA AND NUMBERS](management.md#laws-principles-phenomena-and-numbers)
+      * [Conway's law](management.md#conways-law)
+      * [PROGRAMMER'S VIRTUES](management.md#programmers-virtues)
+      * [MY MAXIMS/QUOTES](management.md#my-maximsquotes)
+      * [OTHER MAXIMS/QUOTES](management.md#other-maximsquotes)
+      * [BIG O NOTATION](management.md#big-o-notation)
+      * [ORDERS OF MAGNITUDE](management.md#orders-of-magnitude)
+      * [DATACENTRE TIERS](management.md#datacentre-tiers)
+      * [AAA](management.md#aaa)
+      * [STATISTICS](management.md#statistics)
+      * [LEADERSHIP (POWELL)](management.md#leadership-powell)
+      * [SDI COLOURS / MOTIVATIONAL VALUE SYSTEM](management.md#sdi-colours--motivational-value-system)
+      * [EIGHT STEPS OF CHANGE (KOTTER)](management.md#eight-steps-of-change-kotter)
+      * [FOUR STAGES OF COMPETENCE (BURCH)](management.md#four-stages-of-competence-burch)
+      * [14 POINTS ON TOTAL QUALITY MANAGEMENT (DEMING)](management.md#14-points-on-total-quality-management-deming)
+      * [PROJECTS (RACI)](management.md#projects-raci)
+      * [PROJECTS (RAID)](management.md#projects-raid)
+      * [MOSCOW](management.md#moscow)
+      * [OODA (BOYD)](management.md#ooda-boyd)
+      * [PICK](management.md#pick)
+      * [SWOT](management.md#swot)
+      * [PERSONAL DEVELOPMENT](management.md#personal-development)
+      * [PROJECT MANAGEMENT TRIANGLE](management.md#project-management-triangle)
+      * [ESTIMATION](management.md#estimation)
+      * [APDEX (performance metric)](management.md#apdex-performance-metric)
+      * [RESPONSIVENESS](management.md#responsiveness)
+      * [USABILITY GOALS](management.md#usability-goals)
+      * [REQUIREMENTS](management.md#requirements)
+      * [CLARK'S...](management.md#clarks)
+      * [PREFERRED NUMBERS](management.md#preferred-numbers)
+      * [ITSM Journey](management.md#itsm-journey)
+      * [FCAPS](management.md#fcaps)
+      * [TEPES](management.md#tepes)
+      * [HIRING](management.md#hiring)
+      * [ITIL Components](management.md#itil-components)
+      * [COMMANDER'S INTENT](management.md#commanders-intent)
+      * [HARDWARE (PICK TWO)](management.md#hardware-pick-two)
+      * [HYPE CYCLE](management.md#hype-cycle)
+      * [STAGES OF GROUP DEVELOPMENT (TUCKMAN)](management.md#stages-of-group-development-tuckman)
+      * [SITUATIONAL LEADERSHIP THEORY](management.md#situational-leadership-theory)
+      * [Leadership styles](management.md#leadership-styles)
+      * [Maturity levels](management.md#maturity-levels)
+      * [Development levels](management.md#development-levels)
+      * [TRAITS OF A GOOD LEADER](management.md#traits-of-a-good-leader)
+      * [3 STAGES OF ORGANISATIONAL DEVELOPMENT](management.md#3-stages-of-organisational-development)
+      * [THEORY OF ORGANISATIONAL SAFETY (WESTRUM)](management.md#theory-of-organisational-safety-westrum)
+      * [INVEST (User stories)](management.md#invest-user-stories)
+      * [INTRINSIC MOTIVATION (PINK)](management.md#intrinsic-motivation-pink)
+      * [TWO-FACTOR THEORY (HERZBERG)](management.md#two-factor-theory-herzberg)
+      * [LAW OF DEMETER](management.md#law-of-demeter)
+      * [THE FIVE DYSFUNCTIONS OF A TEAM](management.md#the-five-dysfunctions-of-a-team)
+      * [CHARACTERISTICS OF HIGH PERFORMING TEAMS](management.md#characteristics-of-high-performing-teams)
+      * [CHANGE MODEL (SATIR)](management.md#change-model-satir)
+      * [FRAMEWORK FOR THINKING ABOUT SYSTEMS CHANGE (KNOSTER, VILLA, THOUSAND)](management.md#framework-for-thinking-about-systems-change-knoster-villa-thousand)
+      * [MATURITY](management.md#maturity)
+      * [MATURITY (ISO 55000)](management.md#maturity-iso-55000)
+      * [SMART](management.md#smart)
+      * [ABBREVIATIONS](management.md#abbreviations)
+      * [DREAD](management.md#dread)
+      * [STRIDE](management.md#stride)
+      * [AGILE MANIFESTO](management.md#agile-manifesto)
+      * [EISENHOWER MATRIX](management.md#eisenhower-matrix)
+      * [INCIDENT PRIORITY](management.md#incident-priority)
+      * [CYNEFIN MODEL](management.md#cynefin-model)
+      * [BURNOUT (MAYO CLINIC)](management.md#burnout-mayo-clinic)
+      * [VALUES IN ACTION INVENTORY OF STRENGTHS (PETERSON &amp; SELIGMAN)](management.md#values-in-action-inventory-of-strengths-peterson--seligman)
+      * [ACCELERATE METRICS](management.md#accelerate-metrics)
+      * [PIONEERS, SETTLERS, TOWN PLANNERS (WARDLEY)](management.md#pioneers-settlers-town-planners-wardley)
+      * [20-60-20 RULE FOR CHANGE (NAPIER)](management.md#20-60-20-rule-for-change-napier)
+      * [CALMS](management.md#calms)
+      * [LAWS OF ORGANISATIONAL BEHAVIOUR (LARMAN)](management.md#laws-of-organisational-behaviour-larman)
 
+<!-- Added by: lukematt, at: Wed 19 Jun 2019 23:20:09 BST -->
+
+<!--te-->
 READING LIST
 ------------
 - Slack (DeMarco)
@@ -14,7 +94,7 @@ READING LIST
 - Deep Work (Newport)
 - Accelerate (Forsgren, Kim, Humble)
 
-UPTIME  
+UPTIME
 ------
 ```
           Day     Month   Year
@@ -31,16 +111,20 @@ UPTIME
 
 DIKM
 ----
-### Data
+***
+Data
 Metrics - 10 req/sec
 
-### Information
+***
+Information
 What? - 10 req/sec for system x
 
-### Knowledge
+***
+Knowledge
 How? - 10 req/sec for system x is good
 
-### Wisdom
+***
+Wisdom
 Clarity through experience, understanding of consequences - 10 req/sec for system x is good because
 
 FALLACIES OF DISTRIBUTED COMPUTING
@@ -56,80 +140,101 @@ FALLACIES OF DISTRIBUTED COMPUTING
 
 LAWS, PRINCIPLES, PHENOMENA AND NUMBERS
 ---------------------------------------
-### Baader Meinhoff
+***
+Baader Meinhoff
 Experiencing something shortly after learning it
 
-### Benford's Law
+***
+Benford's Law
 http://www.rexswain.com/benford.html
 
-### Brooks' Law
+***
+Brooks' Law
 Adding manpower to a late project makes it later
 
-### Dunning-Kruger
+***
+Dunning-Kruger
 Dumb people think they're smart, smart people think they're dumb.
 
-### Pareto Principle
+***
+Pareto Principle
 80/20 - 80% of effects from 20% of causes
 
-### Peter principle
+***
+Peter principle
 People are promoted to the level of their incompetence
 
-### Parkinson's Law
+***
+Parkinson's Law
 Work expands so as to fill the time available for its completion
 
-### Postel's law
+***
+Postel's law
 Be conservative in what you send, liberal in what you receive
 
 ## Conway's law
 Organizations which design systems are constrained to produce designs which are copies of the communication structures of those organisations
 
-### Waterbed theory
+***
+Waterbed theory
 Eliminating something (e.g complexity) in one place requires it to be added somewhere else
 
-### Hawthorne/observer effect
+***
+Hawthorne/observer effect
 Individuals modify/improve performance in response to being observed.
 
-### Chesterton's fence
+***
+Chesterton's fence
 Don’t ever take a fence down until you know the reason why it was put up
 
-### Kerninghan's Law
+***
+Kerninghan's Law
 Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
 
-### Dunbar's number
+***
+Dunbar's number
 150\. The limit to the number of people with whom one can maintain stable social relationships—relationships in which an individual knows who each person is and how each person relates to every other person.
 
-### 10/10/10 rule [Welch]
+***
+10/10/10 rule [Welch]
 When stuck making a decision, ask yourself whether making the wrong decision will matter in **10** minutes, **10** months or **10** years. Prioritise accordingly.
 
-### Gall's law
+***
+Gall's law
 All complex systems that work evolved from simpler systems that worked. If you want to build a complex system that works, build a simpler system first, and then improve it over time.
 
-### Jevons' paradox
+***
+Jevons' paradox
 Increased efficiency doesn't necessarily lead to reduced consumption as overall demand will increase due to the reduced cost.
 
-### Broken windows theory
+***
+Broken windows theory
 Tolerance of minor infractions leads to normalisation, leading to more serious infractions.
 
-### Disagree and commmit
+***
+Disagree and commmit
 Management principle which states that people are allowed to disagree during the  decision making process, but most commit to the final decision – whatever it is.
 
 PROGRAMMER'S VIRTUES
 --------------------
-### Laziness
+***
+Laziness
 The quality that makes you go to great effort to reduce overall energy
 expenditure. It makes you write labor-saving programs that other people will
 find useful, and document what you wrote so you don't have to answer so many
-questions about it. Hence, the first great virtue of a programmer. 
+questions about it. Hence, the first great virtue of a programmer.
 
-### Impatience
+***
+Impatience
 The anger you feel when the computer is being lazy. This makes you write
 programs that don't just react to your needs, but actually anticipate them. Or
-at least pretend to. Hence, the second great virtue of a programmer. 
+at least pretend to. Hence, the second great virtue of a programmer.
 
-### Hubris
+***
+Hubris
 Excessive pride, the sort of thing Zeus zaps you for. Also the quality that
 makes you write (and maintain) programs that other people won't want to say bad
-things about. Hence, the third great virtue of a programmer. 
+things about. Hence, the third great virtue of a programmer.
 
 MY MAXIMS/QUOTES
 ----------------
@@ -232,22 +337,26 @@ ORDERS OF MAGNITUDE
 
 DATACENTRE TIERS
 ----------------
-### Tier 1
+***
+Tier 1
 Single non-redundant distribution path serving the IT equipment
 Non-redundant capacity components
 Basic site infrastructure guaranteeing 99.671% availability
 
-### Tier 2
+***
+Tier 2
 Meets or exceeds all Tier 1 requirements
 Redundant site infrastructure capacity components guaranteeing 99.741% availability
 
-### Tier 3    
+***
+Tier 3
 Meets or exceeds all Tier 1 and Tier 2 requirements
 Multiple independent distribution paths serving the IT equipment
 All IT equipment must be dual-powered and fully compatible with the topology of a site's architecture
 Concurrently maintainable site infrastructure guaranteeing 99.982% availability
 
-### Tier 4     
+***
+Tier 4
 Meets or exceeds all Tier 1, Tier 2 and Tier 3 requirements
 All cooling equipment is independently dual-powered, including chillers and heating, ventilating and air-conditioning (HVAC) systems
 Fault-tolerant site infrastructure with electrical power storage and distribution facilities guaranteeing 99.995% availability
@@ -290,25 +399,32 @@ LEADERSHIP (POWELL)
 
 SDI COLOURS / MOTIVATIONAL VALUE SYSTEM
 ---------------------------------------
-### Altruistic–Nurturing (Blue)
+***
+Altruistic–Nurturing (Blue)
 Concern for the protection, growth, and welfare of others
 
-### Assertive–Directing (Red)
+***
+Assertive–Directing (Red)
 Concern for task accomplishment and concern for organization of people, time, money and any other resources to achieve desired results
 
-### Analytic–Autonomizing (Green)
+***
+Analytic–Autonomizing (Green)
 Concern for assurance that things have been properly thought out  and concern for meaningful order being established and maintained
 
-### Flexible–Cohering (Hub)
+***
+Flexible–Cohering (Hub)
 Concern for flexibility… concern for the welfare of the group… concern for the members of the group and for belonging in the group
 
-### Assertive–Nurturing (Red-Blue Blend)
+***
+Assertive–Nurturing (Red-Blue Blend)
 Concern for the protection, growth, and welfare of others through task accomplishment and leadership
 
-### Judicious–Competing (Red-Green Blend)
+***
+Judicious–Competing (Red-Green Blend)
 Concern for intelligent assertiveness, justice, leadership, order, and fairness in competition
 
-### Cautious–Supporting (Blue-Green Blend)
+***
+Cautious–Supporting (Blue-Green Blend)
 Concern for affirming and developing self-sufficiency in self and others… concern for thoughtful helpfulness with regard for justice
 
 EIGHT STEPS OF CHANGE (KOTTER)
@@ -362,14 +478,14 @@ PROJECTS (RAID)
 
 MOSCOW
 ------
-- Mo: Must Have 
+- Mo: Must Have
 - So: Should Have
 - Co: Could Have
 - W: Won't happen
 
 OODA (BOYD)
 -----------
-- Observe 
+- Observe
 - Orient
 - Decide
 - Act
@@ -430,13 +546,16 @@ Apdex = ( Ns + ( Nt / 2 ) ) / N = 0.xx
 
 RESPONSIVENESS
 --------------
-### 0.1
+***
+0.1
 Response feels instantaneous - 'direct manipulation'
 
-### 1.0
+***
+1.0
 Limit of focus - 'aware that the computer is involved'
 
-### 10
+***
+10
 Limit of concentration - likely to context switch
 
 USABILITY GOALS
@@ -448,7 +567,8 @@ USABILITY GOALS
 
 REQUIREMENTS
 ------------
-### Functional
+***
+Functional
 * What a system should do: "The system must do x" - "Product" input
 - Business rules
 - Requirements
@@ -456,7 +576,8 @@ REQUIREMENTS
 - Interfaces
 - Reporting
 
-### Non-functional
+***
+Non-functional
 - How a system should do it. "The system shall be x" - "Operations" input
 - Qualities
 - Constraints
@@ -465,16 +586,20 @@ REQUIREMENTS
 
 CLARK'S...
 ----------
-### Variable
+***
+Variable
 C - Equal to whatever value is required to make the answer correct
 
-### Maxim
+***
+Maxim
 "Simple" is to protocols what "Democratic" is to countries
 
-### Razor
+***
+Razor
 Other factors being equal, it's probably the developers
 
-### Number
+***
+Number
 18446744073709551615
 
 PREFERRED NUMBERS
@@ -508,10 +633,12 @@ TEPES
 
 HIRING
 ------
-### Smart
+***
+Smart
 The ability to adapt to change. The technology we use today won't be the technology we use tomorrow
 
-### Kind
+***
+Kind
 The ability to fit in to the team. Don't be a douche.
 
 ITIL Components
@@ -539,52 +666,61 @@ HARDWARE (PICK TWO)
 
 HYPE CYCLE
 ----------
-### Technology trigger
+***
+Technology trigger
 A potential technology breakthrough kicks things off. Early proof-of-concept
 stories and media interest trigger significant publicity. Often no usable
 products exist and commercial viability is unproven.
 
-### Peak of inflated expectations
+***
+Peak of inflated expectations
 Early publicity produces a number of success stories—often accompanied by
 scores of failures. Some companies take action; many do not.
 
-### Trough of disillusionment
+***
+Trough of disillusionment
 Interest wanes as experiments and implementations fail to deliver. Producers of
 the technology shake out or fail. Investments continue only if the surviving
 providers improve their products to the satisfaction of early adopters.
 
-### Slope of enlightenment
+***
+Slope of enlightenment
 More instances of how the technology can benefit the enterprise start to
 crystallise and become more widely understood. Second- and third-generation
 products appear from technology providers. More enterprises fund pilots;
 conservative companies remain cautious.
 
-### Plateau of productivity
+***
+Plateau of productivity
 Mainstream adoption starts to take off. Criteria for assessing provider
 viability are more clearly defined. The technology’s broad market applicability
 and relevance are clearly paying off.
 
 STAGES OF GROUP DEVELOPMENT (TUCKMAN)
 -------------------------------------
-### Forming
+***
+Forming
 Team is built. People want to be accepted by others so little controversy or
 conflict.  Administrivia of the team is determined: who does what, when to
 meet, etc. People are gathering information and impressions on each other and
 the task at hand.
 
-### Storming
+***
+Storming
 Trust has developed so members are more willing to express discontent and
 challenge others' opinions. A difficult stage for conflict-adverse members.
 Emphasise tolerence and understanding of differences. Team must be a "no
 judgement" zone with people free to share views and opinions.
 
-### Norming
+***
+Norming
 Team focuses on its goal. Some members may have to compromise their
 ideals for the good of the team but all members take responsibility and have
 ambition. People may not want to "rock the boat" by sharing controversial
 ideas.
 
-### Performing
+***
+Performing
 Team is highly optimised. Job is done smoothly and effectively
 without inappropriate conflict and with little need for supervision. Members
 are motivated, knowledgeable, competent, autonomous. Dissent is expected and
@@ -594,98 +730,121 @@ SITUATIONAL LEADERSHIP THEORY
 -----------------------------
 ## Leadership styles
 
-### S1: Telling
+***
+S1: Telling
 Characterised by one-way communication in which the leader defines the roles of
 the individual or group and provides the what, how, why, when and where to do
 the task
 
-### S2: Selling
+***
+S2: Selling
 While the leader is still providing the direction, he or she is now using
 two-way communication and providing the socio-emotional support that will
 allow the individual or group being influenced to buy into the process;
 
-### S3: Participating
+***
+S3: Participating
 This is how shared decision-making about aspects of how the task is
 accomplished and the leader is providing less task behaviours while maintaining
 high relationship behaviour;
 
-### S4: Delegating
+***
+S4: Delegating
 The leader is still involved in decisions; however, the process and
 responsibility has been passed to the individual or group. The leader stays
 involved to monitor progress.
 
 ## Maturity levels
 
-### M1: Unable and insecure
+***
+M1: Unable and insecure
 They still lack the specific skills required for the job in hand and are unable
 and unwilling to do or to take responsibility for this job or task.
 
-### M2: Unable but willing
+***
+M2: Unable but willing
 They are unable to take on responsibility for the task being done; however,
 they are willing to work at the task. They are novice but enthusiastic.
 
-### M3: Capable but unwilling
+***
+M3: Capable but unwilling
 They are experienced and able to do the task but lack the confidence or the
 willingness to take on responsibility.
 
-### M4: Capable and confident
+***
+M4: Capable and confident
 They are experienced at the task, and comfortable with their own ability to do
 it well. They are able and willing to not only do the task, but to take
 responsibility for the task.
 
 ## Development levels
 
-### D1: Low competence and high commitment
-### D2: Low competence and low commitment
-### D3: High competence and low commitment
-### D4: High competence and high commitment
+***
+D1: Low competence and high commitment
+***
+D2: Low competence and low commitment
+***
+D3: High competence and low commitment
+***
+D4: High competence and high commitment
 
 TRAITS OF A GOOD LEADER
 -----------------------
-### Honest
+***
+Honest
 Display sincerity, integrity, and candor in all your actions. Deceptive
 behaviour will not inspire trust.
 
-### Competent
+***
+Competent
 Base your actions on reason and moral principles. Do not make decisions based
 on childlike emotional desires or feelings.
 
-### Forward-looking
+***
+Forward-looking
 Set goals and have a vision of the future. The vision must be owned throughout
 the organisation. Effective leaders envision what they want and how to get it.
 They habitually pick priorities stemming from their basic values.
 
-### Inspiring
+***
+Inspiring
 Display confidence in all that you do. By showing endurance in mental,
 physical, and spiritual stamina, you will inspire others to reach for new
 heights. Take charge when necessary.
 
-### Intelligent
+***
+Intelligent
 Read, study, and seek challenging assignments.
 
-### Fair-minded
+***
+Fair-minded
 Show fair treatment to all people. Prejudice is the enemy of justice. Display
 empathy by being sensitive to the feelings, values, interests, and well-being
 of others.
 
-### Broad-minded
+***
+Broad-minded
 Seek out diversity.
 
-### Courageous
+***
+Courageous
 Have the perseverance to accomplish a goal, regardless of the seemingly
 insurmountable obstacles. Display a confident calmness when under stress.
 
-### Straightforward
+***
+Straightforward
 Use sound judgment to make a good decisions at the right time.
 
-### Imaginative
+***
+Imaginative
 Make timely and appropriate changes in your thinking, plans, and methods. Show
 creativity by thinking of new and better goals, ideas, and solutions to
 problems. Be innovative!
 
 3 STAGES OF ORGANISATIONAL DEVELOPMENT
 --------------------------------------
-### Stage I: Chaos (fire-fighting mentality)
+***
+Stage I: Chaos (fire-fighting mentality)
 - Crisis/short-term focus
 - Lack of clear direction and goals
 - Shifting priorities
@@ -694,14 +853,16 @@ problems. Be innovative!
 - Blame and lack of ownership
 - Alienated work force
 
-### Stage II: Stability (back to the basics)
+***
+Stage II: Stability (back to the basics)
 - Clarity of goals and direction
 - Consistency in priorities
 - Well-defined policies and procedures (technical and personnel)
 - Agreement on roles and responsibilities
 - Basic management processes rewarded and practiced (goal-setting, performance reviews, etc.)
 
-### Stage III: High performance (outstanding, sustainable results)
+***
+Stage III: High performance (outstanding, sustainable results)
 * Clear statement of mission that creates sense of esprit de corp.
 * Well defined values which result in distinctive culture
 * Respect for people that is a deeply ingrained part of culture
@@ -711,7 +872,8 @@ problems. Be innovative!
 
 THEORY OF ORGANISATIONAL SAFETY (WESTRUM)
 -----------------------------------------
-### Pathological
+***
+Pathological
 - Information is hidden
 - Messengers are shot
 - Responsibilities are shirked
@@ -719,7 +881,8 @@ THEORY OF ORGANISATIONAL SAFETY (WESTRUM)
 - Failure is covered up
 - New ideas are actively crushed
 
-### Bureaucratic
+***
+Bureaucratic
 - Information may be ignored
 - Messengers are tolerated
 - Responsibility is compartmentalised
@@ -727,7 +890,8 @@ THEORY OF ORGANISATIONAL SAFETY (WESTRUM)
 - Organisation is just and merciful
 - New ideas create problems
 
-### Generative
+***
+Generative
 - Information is actively sought
 - Messengers are trained
 - Responsibilities are shared
@@ -746,21 +910,26 @@ INVEST (User stories)
 
 INTRINSIC MOTIVATION (PINK)
 ---------------------------
-### Autonomy
+***
+Autonomy
 The urge to direct our own lives
 
-### Mastery
+***
+Mastery
 The desire to get better and better at something that matters
 
-### Purpose
+***
+Purpose
 The yearning to do what we do in service of something larger than ourselves
 
 TWO-FACTOR THEORY (HERZBERG)
 ----------------------------
-### Motivators (satisfaction)
+***
+Motivators (satisfaction)
 Challenging work, recognition, responsibility
 
-### Hygiene factors (dissatisfaction)
+***
+Hygiene factors (dissatisfaction)
 Status, job security, salary, benefits, work conditions
 
 - High motivation + high hygiene: The ideal. Employees motivated with few complaints
@@ -776,19 +945,24 @@ LAW OF DEMETER
 
 THE FIVE DYSFUNCTIONS OF A TEAM
 -------------------------------
-### Dysfunction #1: Absence of Trust
+***
+Dysfunction #1: Absence of Trust
 The fear of being vulnerable with team members prevents the building of trust within the team.
 
-### Dysfunction #2: Fear of Conflict
+***
+Dysfunction #2: Fear of Conflict
 The desire to preserve artificial harmony stifles the occurrence of productive ideological conflict.
 
-### Dysfunction #3: Lack of Commitment
+***
+Dysfunction #3: Lack of Commitment
 The lack of clarity or buy-in prevents team members from making decisions they will stick to.
 
-### Dysfunction #4: Avoidance of Accountability
+***
+Dysfunction #4: Avoidance of Accountability
 The need to avoid interpersonal discomfort prevents team members from holding one another accountable.
 
-### Dysfunction #5: Inattention to Results
+***
+Dysfunction #5: Inattention to Results
 The pursuit of individual goals and personal status erodes the focus on collective success.
 
 CHARACTERISTICS OF HIGH PERFORMING TEAMS
@@ -803,25 +977,32 @@ CHARACTERISTICS OF HIGH PERFORMING TEAMS
 
 CHANGE MODEL (SATIR)
 --------------------
-### Late status quo
+***
+Late status quo
 Things are functioning as normal. Performance is consistent.
 
-### <foreign element>
+***
+<foreign element>
 An event occurs that affects the status quo and requires change.
 
-### Resistance
+***
+Resistance
 The requirement for change is resisted. The issue is avoided, ignored or downplayed.
 
-### Chaos
-The unknown. Previous assumptions no longer hold true. Relationships change. Performance and quality nosedive. 
+***
+Chaos
+The unknown. Previous assumptions no longer hold true. Relationships change. Performance and quality nosedive.
 
-### <transforming idea>
+***
+<transforming idea>
 A way of adapting to the foreign element is discovered offering a route out of chaos
 
-### Integration
+***
+Integration
 The transforming idea is accepted and integrated in to the system. Performance improves.
 
-### New status quo
+***
+New status quo
 The idea is fully integrated and performance has returned to or exceeds the late status quo.
 
 FRAMEWORK FOR THINKING ABOUT SYSTEMS CHANGE (KNOSTER, VILLA, THOUSAND)
@@ -940,22 +1121,26 @@ y +---+---+---+---+
 CYNEFIN MODEL
 -------------
 
-### Chaotic
+***
+Chaotic
 - No relationship between cause and effect at systems level
 - Novel practice
 - Response: act/sense/respond
 
-### Complex
+***
+Complex
 - The relationship between cause and effect can only be perceived in retrospect
 - Emergent practice
 - Response: probe/sense/respond
 
-### Complicated
+***
+Complicated
 - The relationship between cause and effect requires analysis or some other form of investigation and/or the application of expert knowledge
 - Good practice
 - Response: sense/analyse/respond
 
-### Simple
+***
+Simple
 - The relationship between cause and effect is obvious to all
 - Best practice
 - Response: sense/categorise/respond
@@ -996,17 +1181,20 @@ PIONEERS, SETTLERS, TOWN PLANNERS (WARDLEY)
 -------------------------------------------
 Wardley posits that people fall into three broad categories – all brilliant and necessary.
 
-### Pioneers
+***
+Pioneers
 Come up with new and novel ideas. Risk-takers, lots of uncertainty, experimental. High degree of failure, but learning from it. "Move fast and break things". Inventors.
 
 Produces prototypes.
 
-### Settlers
+***
+Settlers
 Takes prototypes and commercialises them. Builds trust and understanding. Makes it repeatable, reliable, profitable. Innovators.
 
 Produces products.
 
-### Town planners
+***
+Town planners
 Takes products and industrialises them. Makes things faster, better, smaller, more efficient, more economic and more profitable. Diffusers.
 
 Produces services, utilities and commodities (used by the next generation of pioneers)
@@ -1015,16 +1203,20 @@ Produces services, utilities and commodities (used by the next generation of pio
 ---------------------------------
 Napier posits that reaction to change will broadly fall into three main camps.
 
-### 20% Positive
+***
+20% Positive
 See the benefit of the change and are on board from the start. Supportive cheerleaders.
 
-### 60% Neutral/Undecided
+***
+60% Neutral/Undecided
 'Silent majority' who are unsure, but can be convinced with data/evidence.
 
-### 20% Negative
+***
+20% Negative
 'Vocal minority' who resist the change from the start, either because the change will affect them directly or because change is intrinsically bad. Possibly former "positives" who have been worn down into cynical pessimists.
 
-#### Summary
+***#
+Summary
 The temptation is often to focus on the 'vocal minority', however the cost/benefit calculus doesn't make sense – they're very difficult (or even impossible) to win over at great cost.
 
 Instead pay attention to the silent majority. Work out what they need to be convinced and deliver it to them. At that point you'll have 80% and the negative 20% will be forced to 'disagree and commit' or get out of the way.
@@ -1033,19 +1225,24 @@ CALMS
 -----
 Principles popularised by the the devOps movement.
 
-### Culture
+***
+Culture
 Embrace change and share responsibility. Operate a safe, blameless environment where people have room to fail and to grow
 
-### Automation
+***
+Automation
 Automate where possible. Let people focus on the novel, computers on the repetitive. Operate continuous integegration (CI) and ideally continuous delivery (CD). Bias towards maintaining configuration as code wherever possible
 
-### Lean
+***
+Lean
 Continually deliver value in small batches
 
-### Measurement
+***
+Measurement
 You can't fix what you don't measure. Measure and adjust
 
-### Sharing
+***
+Sharing
 Maintain transparent communication channels within the team and beyond
 
 LAWS OF ORGANISATIONAL BEHAVIOUR (LARMAN)

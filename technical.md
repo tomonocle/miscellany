@@ -1,6 +1,115 @@
 CLARK'S MISCELLANY: TECHNICAL EDITION
 =====================================
+<!--ts-->
+   * [CLARK'S MISCELLANY: TECHNICAL EDITION](technical.md#clarks-miscellany-technical-edition)
+      * [HTTP CODES](technical.md#http-codes)
+      * [OSI LAYER MODEL](technical.md#osi-layer-model)
+      * [ICMP](technical.md#icmp)
+      * [COMMON PORTS](technical.md#common-ports)
+      * [TCP THREE WAY HANDSHAKE](technical.md#tcp-three-way-handshake)
+      * [COMMON RFCS](technical.md#common-rfcs)
+      * [SMTP](technical.md#smtp)
+      * [POP3](technical.md#pop3)
+      * [FTP MODES](technical.md#ftp-modes)
+      * [TOOLKIT](technical.md#toolkit)
+      * [VIM](technical.md#vim)
+      * [REDHAT/CENTOS](technical.md#redhatcentos)
+      * [RPM](technical.md#rpm)
+      * [DEB](technical.md#deb)
+      * [DEBIAN](technical.md#debian)
+      * [PUPPET](technical.md#puppet)
+      * [UBUNTU REPOS](technical.md#ubuntu-repos)
+      * [OPENSSL](technical.md#openssl)
+      * [PENETRATION TESTERS](technical.md#penetration-testers)
+      * [MANPAGES](technical.md#manpages)
+      * [CRYPT PREFIXES](technical.md#crypt-prefixes)
+      * [MEGACLI](technical.md#megacli)
+      * [ISO](technical.md#iso)
+      * [KILL SIGNALS](technical.md#kill-signals)
+      * [MAGIC SYSRQ](technical.md#magic-sysrq)
+      * [ETHERNET CABLES - 568A (568B)](technical.md#ethernet-cables---568a-568b)
+      * [802 STANDARDS](technical.md#802-standards)
+      * [GRUB](technical.md#grub)
+      * [DISK BENCHMARKS](technical.md#disk-benchmarks)
+      * [MD5](technical.md#md5)
+      * [UPTIME](technical.md#uptime)
+      * [IOS](technical.md#ios)
+      * [ASCII](technical.md#ascii)
+      * [DHCP](technical.md#dhcp)
+      * [W = A = BTU/hr](technical.md#w--a--btuhr)
+      * [RFC1918 PRIVATE ADDRESSES](technical.md#rfc1918-private-addresses)
+      * [DATACENTRES](technical.md#datacentres)
+      * [PEERING](technical.md#peering)
+      * [TLDs](technical.md#tlds)
+      * [CAP THEOREM](technical.md#cap-theorem)
+      * [BASH](technical.md#bash)
+      * [APACHE](technical.md#apache)
+      * [ESXI](technical.md#esxi)
+      * [PS](technical.md#ps)
+      * [ACTIVE DIRECTORY USERACCOUNTCONTROL](technical.md#active-directory-useraccountcontrol)
+      * [LDAP RESPONSES](technical.md#ldap-responses)
+      * [INITRD](technical.md#initrd)
+      * [ROUTE FLAGS](technical.md#route-flags)
+      * [BONNIE](technical.md#bonnie)
+      * [EXT3 STRIDE/STRIPE-WIDTH](technical.md#ext3-stridestripe-width)
+      * [VARNISH](technical.md#varnish)
+      * [SVN](technical.md#svn)
+      * [GNUPLOT](technical.md#gnuplot)
+      * [SOCAT](technical.md#socat)
+      * [AWK](technical.md#awk)
+      * [SED](technical.md#sed)
+      * [NETSTAT](technical.md#netstat)
+      * [SITES](technical.md#sites)
+      * [DIKM](technical.md#dikm)
+      * [FALLACIES OF DISTRIBUTED COMPUTING](technical.md#fallacies-of-distributed-computing)
+      * [PERL](technical.md#perl)
+      * [EXIM](technical.md#exim)
+      * [GIT](technical.md#git)
+      * [PROGRAMMING TYPES](technical.md#programming-types)
+      * [STP](technical.md#stp)
+      * [IPROUTE2](technical.md#iproute2)
+      * [SYSLOG](technical.md#syslog)
+      * [HPACUCLI](technical.md#hpacucli)
+      * [LAWS, PRINCIPLES AND PHENOMENA](technical.md#laws-principles-and-phenomena)
+      * [Little's law](technical.md#littles-law)
+      * [PROGRAMMER'S VIRTUES](technical.md#programmers-virtues)
+      * [SSH](technical.md#ssh)
+      * [SSH AUTHORIZED_KEYS](technical.md#ssh-authorized_keys)
+      * [BIG O NOTATION](technical.md#big-o-notation)
+      * [Akamai Test Headers](technical.md#akamai-test-headers)
+      * [ORDERS OF MAGNITUDE](technical.md#orders-of-magnitude)
+      * [DATACENTRE TIERS](technical.md#datacentre-tiers)
+      * [AAA](technical.md#aaa)
+      * [METASYNTACTIC VARIABLES](technical.md#metasyntactic-variables)
+      * [PRINTF](technical.md#printf)
+      * [IPTABLES](technical.md#iptables)
+      * [MYSQL](technical.md#mysql)
+      * [NETMASKS](technical.md#netmasks)
+      * [USEFUL NUMBERS](technical.md#useful-numbers)
+      * [STATS](technical.md#stats)
+      * [KONAMI CODE](technical.md#konami-code)
+      * [LATENCY](technical.md#latency)
+      * [EMAIL TEST STRINGS](technical.md#email-test-strings)
+      * [VMWARE](technical.md#vmware)
+      * [ILO](technical.md#ilo)
+      * [VIRTUALBOX](technical.md#virtualbox)
+      * [TCP Throughput](technical.md#tcp-throughput)
+      * [AWS INSTANCE TYPES](technical.md#aws-instance-types)
+      * [ELASTICSEARCH](technical.md#elasticsearch)
+      * [POSTFIX](technical.md#postfix)
+      * [Q&amp;A](technical.md#qa)
+      * [RABBITMQ](technical.md#rabbitmq)
+      * [LSOF](technical.md#lsof)
+      * [UNIX PHILOSOPHY](technical.md#unix-philosophy)
+      * [CONNASCENCE](technical.md#connascence)
+      * [ALICE &amp; BOB](technical.md#alice--bob)
+      * [12/TWELVE FACTOR APPS](technical.md#12twelve-factor-apps)
+      * [UTILISATION SATURATION AND ERRORS (USE)](technical.md#utilisation-saturation-and-errors-use)
+      * [RATE/ERRORS/DURATION (RED)](technical.md#rateerrorsduration-red)
 
+<!-- Added by: lukematt, at: Wed 19 Jun 2019 23:20:11 BST -->
+
+<!--te-->
 HTTP CODES
 ----------
 - 200 OK
@@ -33,7 +142,7 @@ OSI LAYER MODEL
 - 2 Data
 - 1 Physical
 
-ICMP 
+ICMP
 ----
 - 0 Echo Reply
 - 3 Dest unreachable
@@ -132,13 +241,15 @@ BYE
 
 FTP MODES
 ---------
-### Active
+***
+Active
 ```
 command : client >1023 -> server 21
 data    : client >1023 <- server 20
 ```
 
-### Passive
+***
+Passive
 ```
 command : client >1023 -> server 21
 data    : client >1023 -> server >1023
@@ -153,7 +264,8 @@ TOOLKIT
 - procinfo - summary of system information from /proc
 - pidstat  - per-process(id) stats, inc. CPU% usage
 
-### Realtime MySQL stats
+***
+Realtime MySQL stats
 Needs Maatkit
 
 ```
@@ -161,17 +273,20 @@ $ tcpdump port 3306 -s 65535 -x -n -q -tttt | mk-query-digest --type=tcpdump --p
 ```
 
 
-### rot13
+***
+rot13
 ```
 $ echo foo | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
 ```
 
-### Discover proxy (on MS networks)
+***
+Discover proxy (on MS networks)
 ```
 $ curl http://wpad/wpad.dat
 ```
 
-### Find ldap server (on MS networks)
+***
+Find ldap server (on MS networks)
 ```
 $ host -t srv _ldap._tcp
 ```
@@ -202,137 +317,163 @@ s/x/\r/
 
 REDHAT/CENTOS
 -------------
-### When was this machine built?
+***
+When was this machine built?
 ```
 $ date -d @$(rpm -q --qf '%{INSTALLTIME}' basesystem)
 ```
 
 RPM
 ---
-### List installed RPMs
+***
+List installed RPMs
 ```
 $ rpm -qa
 ```
 
-### List installed RPMs, with architecture
+***
+List installed RPMs, with architecture
 ```
 $ rpm -qa --qf "%{n}-%{arch}\n"
 ```
 
-### Info on <package> (inc installation date)
+***
+Info on <package> (inc installation date)
 ```
-$ rpm -qi <package> 
+$ rpm -qi <package>
 ```
 
-### Which RPM installed file
+***
+Which RPM installed file
 ```
 $ rpm -qf <file>
 ```
 
-### List all files in file.rpm
+***
+List all files in file.rpm
 ```
 $ rpm -qlp <file.rpm>
 ```
 
-### List all files installed with package
+***
+List all files installed with package
 ```
-$ rpm -ql <package> 
+$ rpm -ql <package>
 ```
 
 DEB
 ---
-### List installed debs
+***
+List installed debs
 ```
 $ dpkg -l
 ```
 
-### List included files in package (if installed)
+***
+List included files in package (if installed)
 ```
 $ dpkg -L <pkg>
 ```
 
-### List files in package (file)
+***
+List files in package (file)
 ```
 $ dpkg --contents <pkg>
 ```
 
-### Report which package owns file
+***
+Report which package owns file
 ```
 $ dpkg -S /path/to/<file>
 ```
 
-### Reinstall package
+***
+Reinstall package
 ```
 $ apt-get install --reinstall <package>
 ```
 
-### Preconfigure package
+***
+Preconfigure package
 ```
 $ debconf-get-selections | grep package_name > package_name.conf
 $ cat package_name.conf | debconf-set-selections
 ```
 
-### Current mirror size
+###
+Current mirror size
 
 http://www.debian.org/mirror/size
 
 DEBIAN
 ------
-### Prevent packages from starting daemons
+###
+ Prevent packages from starting daemons
 ```
 $ echo "exit 101" > /usr/sbin/policy-rc.d
 ```
 
 PUPPET
 ------
-### Test a class
+***
+Test a class
 ```
 $ puppet apply --modulepath=/etc/puppet/modules -e 'include <module>' --debug
 ```
 
-### Force run
+***
+Force run
 ```
 $ puppet agent --test
 ```
 
 UBUNTU REPOS
 ------------
-### Main
+***
+Main
 Officially supported software.
 
-### Restricted
+***
+Restricted
 Supported software that is not available under a completely free license.
 
-### Universe
+***
+Universe
 Community maintained software, i.e. not officially supported software.
 
-### Multiverse
-Software that is not free. 
+***
+Multiverse
+Software that is not free.
 
 OPENSSL
 -------
-### Self-signed certificate
+***
+Self-signed certificate
 ```
 $ openssl req -new -newkey rsa:1024 -nodes -keyout host.key > host.csr
 $ openssl x509 -days 3650 -signkey host.key -req < host.csr > host.crt
 ```
 
-### View cert
+***
+View cert
 ```
 $ openssl x509 -noout -text -in <cert>
 ```
 
-### View DER certificate
+***
+View DER certificate
 ```
 $ openssl x509 -noout -text -inform der -in <cert>
 ```
 
-### Test remote ssl
+***
+Test remote ssl
 ```
 $ openssl s_client -showcerts -connect host:port
 ```
 
-### Generate MD5 hash (for passwd, etc)
+***
+Generate MD5 hash (for passwd, etc)
 ```
 $ openssl passwd -1
 ```
@@ -366,22 +507,26 @@ CRYPT PREFIXES
 
 MEGACLI
 -------
-### List physical devices
+***
+List physical devices
 ```
 $ MegaCli -PDList -aALL
 ```
 
-### List logical devices
+***
+List logical devices
 ```
 $ MegaCli -LDInfo -Lall -aALL
 ```
 
-### Create LD
+***
+Create LD
 ```
 $ MegaCli -CfgLdAdd -rRAID-LEVEL [ENCLOSURE:SLOT,ENCLOSURE:SLOT] -aADAPTOR
 ```
 
-### Delete LD
+***
+Delete LD
 ```
 $ MegaCli -CfgLdDel -LLD# -aADAPTOR
 ```
@@ -442,7 +587,8 @@ ETHERNET CABLES - 568A (568B)
 
 GRUB
 ----
-### Reboot to a specific entry next time - once
+***
+Reboot to a specific entry next time - once
 ```
 $ echo "savedefault --default=2 --once" | grub --batch
 ```
@@ -456,7 +602,7 @@ MD5
 ---
 - MD5Sum of zero bytes: d41d8cd98f00b204e9800998ecf8427e
 
-UPTIME  
+UPTIME
 ------
 ```
           Day     Month   Year
@@ -473,7 +619,8 @@ UPTIME
 
 IOS
 ---
-### Which MACs on which ports
+***
+Which MACs on which ports
 ```
 > show mac-address-table
 ```
@@ -481,7 +628,7 @@ IOS
 ASCII
 -----
 ```
----2 3 4 5 6 7 
+---2 3 4 5 6 7
 0:   0 @ P ` p
 1: ! 1 A Q a q
 2: " 2 B R b r
@@ -554,28 +701,34 @@ http://www.iana.org/domains/root/db
 
 CAP THEOREM
 -----------
-### Consistency
+***
+Consistency
 All nodes see the same data at the same time
 
-### Availability
+***
+Availability
 Node failures do not prevent survivors from continuing to operate
 
-### Partition Tolerance
+***
+Partition Tolerance
 The system continues to operate despite arbitrary message loss
 
 BASH
 ----
-### Forkbomb
+***
+Forkbomb
 ```
 $ :(){ :|:& };:
 ```
 
-### MAC generator
+***
+MAC generator
 ```
 MACADDR="52:5:$(dd if=/dev/urandom count=1 2>/dev/null | md5sum | sed 's/^\(..\)\(..\)\(..\)\(..\).*$/\1:\2:\3:\4/')"; echo $MACADDR
 ```
 
-### Here string usage
+***
+Here string usage
 ```
 $ command <<"EOF"
 bar
@@ -583,55 +736,64 @@ baz
 EOF
 ```
 
-### Oneshot STD{OUT,ERR} redirect
+***
+Oneshot STD{OUT,ERR} redirect
 ```
 $ command &> /dev/null
 ```
 
-### Iterate over lines
+***
+Iterate over lines
 ```
 $ for i in $(<file); do echo $i; done
 ```
 
-### hex->dec
+***
+hex->dec
 ```
 $ printf '%d\n' 0xY
 ```
 
-### dec->hex
+***
+dec->hex
 ```
 $ printf '%x\n' y
 ```
 
-### Test if $VAR isn't set
+***
+Test if $VAR isn't set
 ```
 $ if [[ -z $VAR ]]; then echo unset; fi
 ```
 
-### Pick a random line from a file
+***
+Pick a random line from a file
 ```
 shuf -n 1 file
 ```
 
-### DETECT BOM
+***
+DETECT BOM
 ```
 $ grep -l $'\xEF\xBB\xBF' <file>
 ```
 
-### Remove BOM
+***
+Remove BOM
 ```
 sed -i '1 s/^\xef\xbb\xbf//' <file>
 ```
 
 APACHE
 ------
-### Scoreboard key
+***
+Scoreboard key
 ```
 . Open slot
 C Closing connection
 D DNS lookup
 G Gracefully finishing
-I Idle cleanup 
+I Idle cleanup
 K Keepalive (read)
 L Logging
 R Reading request
@@ -707,14 +869,16 @@ LDAP RESPONSES
 
 INITRD
 ------
-### Open
+***
+Open
 ```
 $ gunzip initrd.gz
 $ mkdir foo; cd foo
 $ cpio -i < ../initrd
 ```
 
-### Close
+***
+Close
 ```
 $ find | cpio -H newc -o > ../initrd.new
 $ gzip -9 ../initrd.new
@@ -755,14 +919,16 @@ raid5 = (n-1)
 
 VARNISH
 -------
-### Clean up redundant VCLs
+***
+Clean up redundant VCLs
 ```
 $ for i in $(varnishadm -T0:6082 vcl.list | awk '/^available/ {print $NF}'); do varnishadm -T0:6082 vcl.discard $i && echo $i; done
 ```
 
-### varnishstat
+***
+varnishstat
 ```
-client_conn                                - client connections 
+client_conn                                - client connections
 client_req                                 - client requests (multiple requests possible in a single connection)
 backend_fail                               - failed requests to a backend
 backend_toolate / Backend conn. was closed - a persistent connection was closed
@@ -770,7 +936,7 @@ backend_reuse                              - a persistent connection was reused
 n_object                                   - number of cached objects
 n_wrk                                      - current number of worker threads
 n_wrk_create                               - number of threads created (should ideally == n_wrk), if not increase the pool size
-n_wrk_failed                               - threads that failed to create 
+n_wrk_failed                               - threads that failed to create
 n_wrk_max / N worker threads limited       - threads that varnish wasn't allowed to create (due to max threads limit or thread_pool_add_delay)
 n_wrk_overflow                             - request that had to sit in the queue because a worker wasn't available (bad)
 n_wrk_drop                                 - requests that varnish rejected because the queue was full (very bad)
@@ -779,97 +945,113 @@ n_lru_nuked                                - objects that were forced from the c
 
 SVN
 ---
-### Revert a revision
+***
+Revert a revision
 ```
 $ svn merge -c-$REVISION . [--dry-run]
 ```
 
 GNUPLOT
 -------
-### To process CSVs
+***
+To process CSVs
 ```
 gnuplot> set datafile separator ','
 ```
 
-### To plot data in a file
+***
+To plot data in a file
 ```
 gnuplot> plot 'file' using 1:2
 ```
 
-### Plot dots rather than crosses
+***
+Plot dots rather than crosses
 ```
 gnupplot> plot 'file' using 1:2 with dots
 ```
 
-### Vary colour depending on third field
+***
+Vary colour depending on third field
 ```
 gnuplot> plot 'file' using 1:2:3 linecolor variable
 ```
 
-### X-axis as time
+***
+X-axis as time
 ```
 gnutplot> set xdata time
-gnutplot> set timefmt '<strftime>' <-- field format 
+gnutplot> set timefmt '<strftime>' <-- field format
 gnutplot> set format x '<strftime>' <-- display format
 ```
 
-### Set labels/titles
+***
+Set labels/titles
 ```
 gnuplot> set xlabel "Foo"
 gnuplot> set ylabel "Bar"
 gnuplot> set title "Foobar"
 ```
 
-### Logarithmic scale
+***
+Logarithmic scale
 ```
 gnuplot> set logscale y
 gnuplot> unset logscale y
 ```
 
-### Range
+***
+Range
 ```
 gnuplot> set yrange[min:max]
 ```
 
-### Plot multiple fields
+***
+Plot multiple fields
 ```
 gnuplot> plot 'file' using 1:2 title "a", 'file' using 1:3 title "b"... etc
 ```
 
 SOCAT
 -----
-### Bridge 0.0.0.0:12345 to 1.2.3.4:54321
+***
+Bridge 0.0.0.0:12345 to 1.2.3.4:54321
 ```
 $ socat TCP4-LISTEN:12345,reuseaddr,fork TCP4:1.2.3.4:54321
 ```
 
 AWK
 ---
-### Return unique results from unsorted list
+***
+Return unique results from unsorted list
 ```
 $ awk '{if (!a[$0]++) print}'
 ```
 
-### Return non-unique results from unsorted list
+***
+Return non-unique results from unsorted list
 ```
 $ awk '{if (x[$3]++>0) print}'
 ```
 
-### Timestamp each line: (requires gawk)
+***
+Timestamp each line: (requires gawk)
 ```
 $ awk '{ print strftime("%Y-%m-%d %H:%M:%S"), $0; }'
 ```
 
 SED
 ---
-### Remove empty lines from a file
+***
+Remove empty lines from a file
 ```
 $ sed '/^$/d' file
 ```
 
 NETSTAT
 -------
-### Display socket inode numbers (useful for matching to /proc/<pid>/fd/ entries):
+***
+Display socket inode numbers (useful for matching to /proc/<pid>/fd/ entries):
 ```
 $ netstat -e
 ```
@@ -880,16 +1062,20 @@ www.passwordcard.org - unique grid of characters, used to safely store a passwor
 
 DIKM
 ----
-### Data
+***
+Data
 Metrics - 10 req/sec
 
-### Information
+***
+Information
 What? - 10 req/sec for system x
 
-### Knowledge
+***
+Knowledge
 How? - 10 req/sec for system x is good
 
-### Wisdom
+***
+Wisdom
 Clarity through experience, understanding of consequences - 10 req/sec for system x is good because
 
 FALLACIES OF DISTRIBUTED COMPUTING
@@ -905,57 +1091,67 @@ FALLACIES OF DISTRIBUTED COMPUTING
 
 PERL
 ----
-### Paragraph grep
+***
+Paragraph grep
 ```
 $ perl -00 -ne 'print if /foo/'
 ```
 
-### Print everything between two strings
+***
+Print everything between two strings
 ```
 $ perl -ne 'print if (m!^Foo! ... m!Bar!)'
 ```
 
-### Slurp entire file
+***
+Slurp entire file
 ```
 $ perl -0777
 ```
 
 EXIM
 ----
-### Test address processing
+***
+Test address processing
 ```
-$ exim -bt [-d] 
+$ exim -bt [-d]
 ```
 
-### Test address (from POV of <ip> - full smtp)
+***
+Test address (from POV of <ip> - full smtp)
 ```
 $ exim -bh <ip> [-d]
 ```
 
-### Test config
+***
+Test config
 ```
 $ exim -bV
 ```
 
-### Test delivering a mail
+***
+Test delivering a mail
 ```
 $ exim -v
 ```
 
-### Foreground debug
+***
+Foreground debug
 ```
 $ exim -bd -d
 ```
 
 GIT
 ---
-### Reset current branch to master (discard changes)
+***
+Reset current branch to master (discard changes)
 ```
 $ git fetch --all
 $ git reset --hard origin/master
 ```
 
-### See commits that haven't been pushed
+***
+See commits that haven't been pushed
 ```
 $ git log origin..
 ```
@@ -989,7 +1185,8 @@ netstat  -> ss
 
 SYSLOG
 ------
-### Facility
+***
+Facility
 ```
 0  kernel messages
 1  user-level messages
@@ -1017,7 +1214,8 @@ SYSLOG
 23 local use 7  (local7)
 ```
 
-### Severity
+***
+Severity
 ```
 0 Emergency: system is unusable
 1 Alert: action must be taken immediately
@@ -1050,30 +1248,35 @@ L = λW. The average number of requests in a system is equal to the average arri
 
 PROGRAMMER'S VIRTUES
 --------------------
-### Laziness
+***
+Laziness
 The quality that makes you go to great effort to reduce overall energy
 expenditure. It makes you write labor-saving programs that other people will
 find useful, and document what you wrote so you don't have to answer so many
-questions about it. Hence, the first great virtue of a programmer. 
+questions about it. Hence, the first great virtue of a programmer.
 
-### Impatience
+***
+Impatience
 The anger you feel when the computer is being lazy. This makes you write
 programs that don't just react to your needs, but actually anticipate them. Or
-at least pretend to. Hence, the second great virtue of a programmer. 
+at least pretend to. Hence, the second great virtue of a programmer.
 
-### Hubris
+***
+Hubris
 Excessive pride, the sort of thing Zeus zaps you for. Also the quality that
 makes you write (and maintain) programs that other people won't want to say bad
-things about. Hence, the third great virtue of a programmer. 
+things about. Hence, the third great virtue of a programmer.
 
 SSH
 ---
-### Don't care about remote key:
+***
+Don't care about remote key:
 ```
 $ ssh -o StrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null user@host
 ```
 
-### Escape sequences
+***
+Escape sequences
 ```
  ~.   - terminate connection (and any multiplexed sessions)
  ~B   - send a BREAK to the remote system
@@ -1096,29 +1299,37 @@ Config is placed (comma-separated) at the start of the line, e.g
 from="10.11.12.13",command="/usr/bin/foo",no-pty ssh-rsa ABC123 comment
 ```
 
-### command="foo"
+***
+command="foo"
 Run command 'foo' when this key is used, regardless of what the user requested.
 Command user passed is available through $SSH_ORIGINAL_COMMAND
 
-### environment="FOO=bar"
+***
+environment="FOO=bar"
 Set environment variable FOO to 'bar'
 
-### from="pattern-list"
+***
+from="pattern-list"
 Only allow this key to be used from hosts specified. [*?] available as wildcards. Comma-separated
 
-### no-agent-forwarding
+***
+no-agent-forwarding
 Don't allow client to forward their ssh agent
 
-### no-port-forwarding
+***
+no-port-forwarding
 Don't allow client to forward ports
 
-### no-pty
+***
+no-pty
 Don't allocate a PTY to connection
 
-### no-user-rc
+***
+no-user-rc
 Don't execute user's .ssh/rc file
 
-### no-X11-forwarding
+***
+no-X11-forwarding
 Don't allow X11 forwarding
 
 BIG O NOTATION
@@ -1178,22 +1389,26 @@ ORDERS OF MAGNITUDE
 
 DATACENTRE TIERS
 ----------------
-### Tier 1
+***
+Tier 1
 Single non-redundant distribution path serving the IT equipment
 Non-redundant capacity components
 Basic site infrastructure guaranteeing 99.671% availability
 
-### Tier 2
+***
+Tier 2
 Meets or exceeds all Tier 1 requirements
 Redundant site infrastructure capacity components guaranteeing 99.741% availability
 
-### Tier 3    
+***
+Tier 3
 Meets or exceeds all Tier 1 and Tier 2 requirements
 Multiple independent distribution paths serving the IT equipment
 All IT equipment must be dual-powered and fully compatible with the topology of a site's architecture
 Concurrently maintainable site infrastructure guaranteeing 99.982% availability
 
-### Tier 4     
+***
+Tier 4
 Meets or exceeds all Tier 1, Tier 2 and Tier 3 requirements
 All cooling equipment is independently dual-powered, including chillers and heating, ventilating and air-conditioning (HVAC) systems
 Fault-tolerant site infrastructure with electrical power storage and distribution facilities guaranteeing 99.995% availability
@@ -1222,7 +1437,8 @@ METASYNTACTIC VARIABLES
 
 PRINTF
 ------
-### Placeholders
+***
+Placeholders
 ```
 %% literal %
 %s string
@@ -1235,7 +1451,8 @@ PRINTF
 %g floating-point, %e or %f as appropriate
 ```
 
-### Flags
+***
+Flags
 ```
 space - prefix non-negative number with space
 +     - prefix non-negative number with a plus sign
@@ -1244,13 +1461,15 @@ space - prefix non-negative number with space
 #     - prefix 0 for oct, 0x for hex
 ```
 
-### min-width
+***
+min-width
 ```
 "<%s>", a  = "<a>"
 "<%6s>", a = "<     a>"
 ```
 
-### max-width / precision:
+***
+max-width / precision:
 ```
 "<%f>", 1   = "<1.000000>"
 "<%.1f>", 1 = "<1.0>"
@@ -1259,19 +1478,22 @@ space - prefix non-negative number with space
 
 IPTABLES
 --------
-### Redirect one port to another locally:
+***
+Redirect one port to another locally:
 ```
 $ iptables -t nat -I PREROUTING -p tcp --dport <from> -j REDIRECT --to-port <to>
 ```
 
 MYSQL
 -----
-### Skip transaction on slave
+***
+Skip transaction on slave
 ```
 mysql> set GLOBAL sql_slave_skip_counter = 1; start slave;
 ```
 
-### Lock waits / deadlocks
+***
+Lock waits / deadlocks
 ```
 mysql> select * from INFORMATION_SCHEMA.INNODB_TRX
 mysql> select * from INFORMATION_SCHEMA.INNODB_LOCK_WAITS
@@ -1347,12 +1569,14 @@ x 2 for 'likely' latency
 
 EMAIL TEST STRINGS
 ------------------
-### Virus (EICAR)
+***
+Virus (EICAR)
 ```
 X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
 ```
 
-### Spam (GTUBE)
+***
+Spam (GTUBE)
 ```
 XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 ```
@@ -1360,21 +1584,24 @@ XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 VMWARE
 ------
 
-### Escape from visual console
+***
+Escape from visual console
 ```
 CTRL-ALT
 ```
 
 ILO
 ---
-### Escape from textcons
+***
+Escape from textcons
 ```
 ESC-(
 ```
 
 VIRTUALBOX
 ----------
-### Start VM (gui/headless)
+***
+Start VM (gui/headless)
 ```
 $ VBoxManage startvm <name> --type (gui|headless)
 ```
@@ -1401,73 +1628,86 @@ D - Dense storage
 
 ELASTICSEARCH
 -------------
-### Shard status
+***
+Shard status
 ```
 $ curl http://localhost:9200/_cat/shards?pretty
 ```
 
-### Cluster health
+***
+Cluster health
 ```
 $ curl http://localhost:9200/_cluster/health?pretty=true
 ```
 
-### List indices
+***
+List indices
 ```
 $ curl http://localhost:9200/_cat/indices
 ```
 
-### List nodes
+***
+List nodes
 ```
 $ curl http://localhost:9200/_cat/nodes
 ```
 
-### Delete index (supports wildcards)
+***
+Delete index (supports wildcards)
 ```
 curl -XDELETE http://localhost:9200/<index>
 ```
 
 POSTFIX
 -------
-### View queue
+***
+View queue
 ```
 $ mailq
 ```
 
-### Clear all queues
+***
+Clear all queues
 ```
 $ postsuper -d ALL
 ```
 
-### Flush (retry) queue
+***
+Flush (retry) queue
 ```
 $ postfix flush
 ```
 
 Q&A
 ---
-### cifs mount fails, dmesg shows "CIFS VFS: cifs_mount failed w/return code = -22"
+***
+cifs mount fails, dmesg shows "CIFS VFS: cifs_mount failed w/return code = -22"
 Ensure cifs package is installed (cifs-utils)
 
 RABBITMQ
 --------
-### Create user
+***
+Create user
 ```
 $ rabbitmqctl add_user <user> <pass>
 ```
 
-### Allow to administer/log on to console
+***
+Allow to administer/log on to console
 ```
 $ rabbitmqctl set_user_tags <user> administrator
 ```
 
-### Allow config/write/read to all queues
+***
+Allow config/write/read to all queues
 ```
 $ rabbitmqctl set_permissions -p <vhost> <user> '.*' '.*' '.*'
 ```
 
 LSOF
 ----
-### List open files for a process
+***
+List open files for a process
 ```
 $ lsof -a -d 1-999 -p <pid> /
 ```
@@ -1496,14 +1736,16 @@ CONNASCENCE
 -----------
 Describes level of complexity introduced through relationships/dependencies
 
-### Static
+***
+Static
 - Name - e.g method names
 - Type - e.g string
 - Meaning/Convention - e.g 1==true
 - Position - positional parameters
 - Algorithm - e.g MAC or hashing algorithms
 
-### Dynamic
+***
+Dynamic
 - Execution - e.g order of execution is important
 - Timing - e.g timing of multiple components is important
 - Values - e.g when several values must change together
@@ -1521,7 +1763,7 @@ Common characters in cryptology
 - Frank: generic character
 - Grace: government representative
 - Mallory: a malicious active attacker who can observe and modify messages
-- Trudy: an intruder 
+- Trudy: an intruder
 
 12/TWELVE FACTOR APPS
 ---------------------
